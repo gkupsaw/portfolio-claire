@@ -19,8 +19,7 @@ export default function HomePage() {
                     <div id='Title' className='flex flex-col justify-center w-screen h-screen'>
                         <p className='text-3xl md:text-8xl'>Claire Kupsaw</p>
                     </div>
-                    {/* <hr style={{"height": 2, border: "none"}} /> */}
-                    <div style={{background: "linear-gradient(to bottom, #3498db, #8e44ad)"}} />
+                    <hr style={{"height": 2, border: "none"}} />
                     {projects.map((project) => (
                         <div key={project.key} className='flex flex-col justify-center items-center h-screen'>
                             <a
