@@ -40,7 +40,3 @@ export default function HomePage() {
         </div>
     );
 }
-
-export const metadata = {
-  title: 'Claire Kupsaw',
-};
