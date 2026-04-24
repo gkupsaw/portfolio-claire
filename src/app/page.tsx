@@ -8,7 +8,7 @@ const projects = [
     },
 ]
 
-export default function RecipePage() {
+export default function HomePage() {
     return (
         <div className='font-mono flex flex-col items-center justify-items-center min-h-screen'>
             <main className='flex flex-col row-start-2 justify-items-center'>
@@ -19,7 +19,8 @@ export default function RecipePage() {
                     <div id='Title' className='flex flex-col justify-center w-screen h-screen'>
                         <p className='text-3xl md:text-8xl'>Claire Kupsaw</p>
                     </div>
-                    <hr style={{"height": 2, border: "none"}} />
+                    {/* <hr style={{"height": 2, border: "none"}} /> */}
+                    <div style={{background: "linear-gradient(to bottom, #3498db, #8e44ad)"}} />
                     {projects.map((project) => (
                         <div key={project.key} className='flex flex-col justify-center items-center h-screen'>
                             <a
